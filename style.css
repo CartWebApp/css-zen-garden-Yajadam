@@ -1,1 +1,13 @@
 /* Empty file for template. Remember to edit only this file and not the HTML file */
+.intro{
+background-color: aliceblue;
+display: flex;
+flex-shrink: 500px;
+flex-direction: row;
+}
+.explanation{
+    background-color: antiquewhite;
+    display:flex;
+    flex-direction: row;
+
+}
