@@ -1,17 +1,40 @@
 /* Empty file for template. Remember to edit only this file and not the HTML file */
+body{
+    background-color: rgb(203, 240, 204);
+        
+}
 .intro{
-background-color: aliceblue;
+
 display: flex;
 flex-direction: column;
 
 }
-h1{
-    display:flex;
-    align-items: center;
+.intro{
+    display: flex;
+    align-items: center ;
 }
+.banner{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
 .explanation{
-    background-color: antiquewhite;
     display:flex;
+    flex-direction: column;
+    align-items: center ;
+   
+}
+.participation{
+    display: flex;
+    flex-direction: column;
+    
+}
+.participation{
+    
+}
+.benefits{
+    display: flex;
     flex-direction: column;
     align-items: center;
 }
