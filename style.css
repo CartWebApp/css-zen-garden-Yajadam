@@ -1,17 +1,51 @@
 /* Empty file for template. Remember to edit only this file and not the HTML file */
+@import url('https://fonts.googleapis.com/css2?family=La+Belle+Aurore&display=swap');
 body{
     background-color: rgb(203, 240, 204);
-        
+    font-family: "La Belle Aurore", cursive;
+  font-weight: 400;
+  font-style: normal;
 }
-.intro{
+h1{
+    color: rgb(100, 147, 103);
+    font-size: xx-large;
+}
+h1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+h2::after {
+    content: url(bonsai\ tree.webp);
+}
+h2{
+    color: rgb(100, 147, 103);
+    font-size: x-large;
+    
+}
+h3{
+    color: rgb(100, 147, 103);
+    font-size: larger;
+}
+p{
+    white-space: wrap;
+    font-size: large;
+}
 
-display: flex;
+.intro{
+    display: flex;
 flex-direction: column;
 
 }
 .intro{
     display: flex;
     align-items: center ;
+}
+
+.preamble{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
 }
 .banner{
     display: flex;
@@ -29,12 +63,16 @@ flex-direction: column;
     display: flex;
     flex-direction: column;
     
-}
-.participation{
     
 }
 .benefits{
     display: flex;
     flex-direction: column;
     align-items: center;
+}
+.wrapper{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    justify-content: space-between;
 }
