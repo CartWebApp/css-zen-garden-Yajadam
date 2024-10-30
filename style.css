@@ -6,16 +6,22 @@ body{
   font-weight: 400;
   font-style: normal;
 }
+.page-wrapper{
+    width: 50%;
+}
 h1{
     color: rgb(100, 147, 103);
-    font-size: xx-large;
+    font-size: xxx-large;
 }
 h1{
     display: flex;
     flex-direction: column;
     align-items: center;
 }
-h2::after {
+h2::before {
+    display:flex;
+    flex-direction: column;
+    align-items: center;
     content: url(bonsai\ tree.webp);
 }
 h2{
@@ -25,7 +31,7 @@ h2{
 }
 h3{
     color: rgb(100, 147, 103);
-    font-size: larger;
+    font-size: x-large;
 }
 p{
     white-space: wrap;
@@ -35,6 +41,8 @@ p{
 .intro{
     display: flex;
 flex-direction: column;
+align-items: flex-start;
+justify-content: flex-start;
 
 }
 .intro{
@@ -50,29 +58,65 @@ flex-direction: column;
 .banner{
     display: flex;
     flex-direction: column;
-    align-items: flex-start;
+    align-items: center;
 }
 
 .explanation{
     display:flex;
     flex-direction: column;
+    width: 100%;
     align-items: center ;
    
+}
+.main.supporting{
+    display:flex;
+    width:100%;
+    flex-flow: row wrap;
 }
 .participation{
     display: flex;
     flex-direction: column;
-    
+    width: 49%;
     
 }
 .benefits{
     display: flex;
     flex-direction: column;
-    align-items: center;
+    align-items: flex-start;
+    width: 47%;
 }
+
+
+
 .wrapper{
     display: flex;
     flex-direction: row;
     align-items: flex-end;
     justify-content: space-between;
 }
+.design-archives{
+    display:flex;
+    flex-direction:column;
+    align-items: flex-start;
+}
+.design-selection::after{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    content: url(HD-wallpaper-japan-reflection-mountain-hill-lake-removebg-preview\ \(3\).png)
+}
+.content
+.design-archives::after{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    content: url(HD-wallpaper-japan-reflection-mountain-hill-lake-removebg-preview\ \(3\).png)
+}
+.zen-resources::after {
+    display:flex;
+    flex-direction: row;
+    align-items: flex-end;
+    content: url(zen_tree-removebg-preview.png);
+   
+}
+ 
