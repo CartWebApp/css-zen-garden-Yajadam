@@ -5,9 +5,21 @@ body{
     font-family: "La Belle Aurore", cursive;
   font-weight: 400;
   font-style: normal;
+  background-image: url(download-removebg-preview.png);
+  background-repeat: no-repeat;
+  background-position: left center;
+}
+.body{
+    background-image: url(download-removebg-preview.png);
+    -webkit-transform: rotate(180deg);
+    -moz-transform: rotate(180deg);
+  background-repeat: no-repeat;
+  background-position: left center;
+    
 }
 .page-wrapper{
-    width: 50%;
+    width: 45%;
+  
 }
 h1{
     color: rgb(100, 147, 103);
@@ -85,38 +97,46 @@ justify-content: flex-start;
     align-items: flex-start;
     width: 47%;
 }
-
-
-
 .wrapper{
     display: flex;
     flex-direction: row;
     align-items: flex-end;
     justify-content: space-between;
 }
+.design-selection{
+    display:flex;
+    flex-direction:column;
+    align-items:flex-start
+}
 .design-archives{
+    display:flex;
+    flex-direction:column;
+    align-items: flex-start;
+}
+.zen-resources{
     display:flex;
     flex-direction:column;
     align-items: flex-start;
 }
 .design-selection::after{
     display: flex;
-    flex-direction: column;
-    align-items: flex-start;
+    flex-direction: row;
+    align-items: flex-end;
     content: url(HD-wallpaper-japan-reflection-mountain-hill-lake-removebg-preview\ \(3\).png)
 }
-.content
 .design-archives::after{
     display: flex;
-    flex-direction: column;
-    align-items: flex-start;
+    flex-direction: row;
+    align-items: flex-end;
     content: url(HD-wallpaper-japan-reflection-mountain-hill-lake-removebg-preview\ \(3\).png)
 }
 .zen-resources::after {
     display:flex;
-    flex-direction: row;
-    align-items: flex-end;
+    flex-direction: column;
+    align-items: flex-start;
     content: url(zen_tree-removebg-preview.png);
-   
+    
 }
+
+
  
