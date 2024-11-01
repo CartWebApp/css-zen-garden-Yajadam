@@ -5,7 +5,6 @@ body{
     font-family: "La Belle Aurore", cursive;
   font-weight: 400;
   font-style: normal;
-
 }
 .page-wrapper{
     width: 45%;
@@ -26,12 +25,6 @@ h2::before {
     align-items: flex-start;
     content: url(bonsai\ tree.webp);
 }
-h2::after{
-background-image: url(vines.png);
-  background-repeat: no-repeat;
-  background-position: left;
-  background-size: 10%;
-}
 h2{
     color: rgb(100, 147, 103);
     font-size: x-large;
@@ -50,14 +43,20 @@ p{
     display: flex;
 flex-direction: column;
 align-items: flex-start;
+background-image: url(vines.png);
+background-repeat: no-repeat;
+background-position: left;
+background-size: 30%;
 justify-content: flex-start;
-
 }
 .intro{
     display: flex;
     align-items: center;
 }
-
+.summary{
+    width: 100%;
+    height: 100%;
+}
 .preamble{
     display: flex;
     flex-direction: column;
@@ -119,15 +118,14 @@ justify-content: flex-start;
 }
 .design-selection::after{
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     align-items: flex-end;
-    content: url(HD-wallpaper-japan-reflection-mountain-hill-lake-removebg-preview\ \(3\).png)
+    
 }
 .design-archives::after{
     display: flex;
     flex-direction: row;
     align-items: flex-end;
-    content: url(HD-wallpaper-japan-reflection-mountain-hill-lake-removebg-preview\ \(3\).png)
 }
 .zen-resources::after {
     display:flex;
